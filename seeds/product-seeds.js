@@ -31,6 +31,18 @@ const productData = [
     stock: 22,
     category_id: 2,
   },
+  {
+    product_name: 'Top 20 Hits from 2005 Record',
+    price: 12.99,
+    stock: 35,
+    category_id: 3,
+  },
+  {
+    product_name: '3 Quarter Denim Shorts',
+    price: 29.99,
+    stock: 12,
+    category_id: 2,
+  },
 ];
 
 const seedProducts = () => Product.bulkCreate(productData);
